@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Email Challenge</title>
+  <style rel="stylesheet" type="text/css">
+    @font-face {
+
+      font-family: 'CircularMedium';
+
+      src: url('https://static.thirdlove.com/font/lineto-circular-medium.eot');
+
+      src: url('https://static.thirdlove.com/font/lineto-circular-medium.eot') format('embedded-opentype'),
+
+        url('https://static.thirdlove.com/font/lineto-circular-medium.woff2') format('woff2'),
+
+        url('https://static.thirdlove.com/font/lineto-circular-medium.woff') format('woff');
+
+      font-weight: 500;
+
+      font-style: normal;
+
+      -webkit-font-smoothing: antialiased;
+
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    @media only screen and (max-width: 640px; ) {
+      .table {
+        width: 100% !important;
+      }
+
+      .column {
+        width: 100% !important;
+        display: block !important;
+      }
+    }
+  </style>
+</head>
+
+<body style="margin: 0; padding: 0;">
+  <table callpadding="0" cellspacing="0" width="100%" style="padding: 20px 0;">
+    <tr>
+      <td class="container" width="640">
+        <table class="table" align="center" cellpadding="0" cellspacing="0" width="640" style="border-collapse: collapse">
+          <tr>
+            <td class="column" align="center" width="414">
+              <a href="https://www.thirdlove.com"><img src="Email Assets/top section.png" alt="Set Your Tone in Pinot" style="display: block;"> </a>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="column" align="center" width="414">
+              <a href="https://www.thirdlove.com"> <img src="Email Assets/2nd section.png" alt="Shop Pinot" style="display: block;"> </a>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="column" align="center" width="414">
+              <a href="https://www.thirdlove.com"><img src="Email Assets/3rd section.png" alt="Build my Bundle" style="display: block;"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="column" align="center" width="414" height="850" style="background-color: #fddcda">
+              <div class="hooked" style="border-style: solid; border-width: 6px; border-color: #fff; padding: 10%; margin: 5%;">
+                <img src="Email Assets/hooked logo.png" alt="hooked">
+                <p style="font-size: 45px; font-family: CircularMedium; color: #cf8229; margin: 26px 0;"> Get discounts, gifts, and <br>
+                  freebies just for shopping.</p>
+                  <a href="https://www.thirdlove.com/account/register"><p class="CTA-hooker" style="font-size: 60px; font-family: CircularMedium; color: #cf8229; border-bottom: 4px solid #cf8229; display: inline-block; padding: 10px;">
+                    Sing up Now</p> </a>
+                    <!-- This is the liquid logic I made for the options on the buttom
+                    {% if custom_attribute.{loyalty.has_account} == false %}
+                    {% capture destinationUrl %}https://www.thirdlove.com/account/register {% endcapture %}
+                    {% capture buttonText %}Sing up Now{% endcapture %}
+                    {% else %}
+                    {% capture destinationUrl %} https://www.thirdlove.com/account/login {% endcapture %}
+                    {% capture buttonText %} Sing in Now {% endcapture %}
+                    {% endif %}}
+                    <a href="{{destinationUrl}}"><p>{{buttonText}}</p></a> -->
+              </div>
+
+            </td>
+          </tr>
+          <tr>
+            <td class="column" align="center" width="414">
+              <a href="https://www.thirdlove.com"><img src="Email Assets/footer.png" alt="footer" style="display: block;"></a>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+</body>
+
+</html>
